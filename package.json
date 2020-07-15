@@ -1,32 +1,33 @@
 {
-  "name": "07-restserver2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "google-auth-library": "^6.0.5",
-    "jsonwebtoken": "^8.5.1",
-    "json-web-token": "^3.2.0",
-    "mongoose": "^5.9.24",
-    "mongoose-unique-validator": "^2.0.3",
-    "nodemon": "^2.0.4",
-    "underscore": "^1.10.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dgoyes/07-restserver2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dgoyes/07-restserver2/issues"
-  },
-  "homepage": "https://github.com/dgoyes/07-restserver2#readme"
+    "name": "07-restserver2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "google-auth-library": "^6.0.5",
+        "jsonwebtoken": "^8.5.1",
+        "json-web-token": "^3.2.0",
+        "mongoose": "^5.9.24",
+        "mongoose-unique-validator": "^2.0.3",
+        "nodemon": "^2.0.4",
+        "underscore": "^1.10.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dgoyes/07-restserver2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dgoyes/07-restserver2/issues"
+    },
+    "homepage": "https://github.com/dgoyes/07-restserver2#readme"
 }
